@@ -82,14 +82,14 @@
 }
 @media screen and (max-width: 950px) {
     .container{
-        flex-direction: column;
-        justify-content: start;
-        align-items: normal;
+        flex-direction: column!important;
+        justify-content: start!important;
+        align-items: normal!important;
     }
     .first__container{
-        width: 50%;
+        width: 50%!important;
     }
     .second__container{
-        width: 100%;
+        width: 100%!important;
     }
 }
